@@ -77,7 +77,7 @@ when illegal action with b,c, it triggers the game over , and we judge the playe
 • Repeated player ID/colour. 
 • A negative value of the initial location of a player
 
--- open with Part1_basic_version.py
+-- open with Part1_main.py
 
 
 # Advance Version
@@ -86,15 +86,13 @@ when illegal action with b,c, it triggers the game over , and we judge the playe
 based on the original code, we can remove the Outermost condition judgment , and after that,two players will finish one-step-action in one game turn , to allow players to move simultaneously.
 ps: the computer player's action is based on player B ,with 4 direction by 'jikl' ,and I set one dictionary connect 4 words with 1,2,3,4 ,then I create one lambda with a randint(1,4), every turn it will create one random number form 1 to 4 , and with each number with one corresponding direction , which is the move_position of computer player but because of the random of the number ,at beginning step there are 50% possibility to trigger the game over condition ,so it is a little  stupid . There are much room for improvement. \ 
 
---open with Part1_advaced_v1.py file 
+--open with Part1 main_extend_v1.py file 
 
 ## 2 :play with computer player 
 we are supposed to play with robot player ,which becomes a single game . it is a child class based
 on Class Player, robot inherit initial method from the player,and it own a random action method , i use the
 lambda function to realise the fucntion .
  
---open with Part1_adanced_v2.py file 
+--open with Part1 main_extend_v2.py file 
 
-for format of the file ,I prepare an .ipynb file (consideration of the situation import class error ,I met it before). 
-And you can use either 
 
