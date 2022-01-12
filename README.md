@@ -7,7 +7,8 @@ before design the Tron game , classify the object fisrtly :
 
 ## 1 boarder :
 
-1.1 it made of a matrix of square ，the size of boarder is custimized , by input number from player .
+1.1 board: 
+it made of a matrix of square ，the size of boarder is custimized , by input number from player .
 The default value of unit in matrix is 0, when the position occuppied by player , it will turn into other value .
 
 
